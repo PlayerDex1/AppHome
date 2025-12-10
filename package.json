@@ -1,0 +1,20 @@
+{
+  "name": "meu-app-financeiro-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-pwa": "^5.6.0",
+    "tesseract.js": "^2.1.5",
+    "@supabase/supabase-js": "^2.8.0",
+    "jsqr": "^1.4.0"
+  }
+}

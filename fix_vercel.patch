@@ -1,0 +1,32 @@
+*** Begin Patch
+*** Add File: pages/index.js
++export default function Home() {
++  return (
++    <main style={{padding:20,fontFamily:'sans-serif'}}>
++      <h1>Meu App Financeiro — PWA (placeholder)</h1>
++      <p>Esta página foi adicionada automaticamente para corrigir o erro de build no Vercel.</p>
++      <p>Substitua por seu conteúdo real depois.</p>
++    </main>
++  )
++}
++
+*** End Patch
+*** Begin Patch
+*** Add File: pages/scan.js
++export default function Scan() {
++  return (
++    <main style={{padding:20,fontFamily:'sans-serif'}}>
++      <h2>Scanner — placeholder</h2>
++      <p>Componente Scanner ainda não integrado. Substitua por seu componente real.</p>
++    </main>
++  )
++}
++
+*** End Patch
+*** Begin Patch
+*** Add File: vercel.json
++{
++  "root": "."
++}
++
+*** End Patch

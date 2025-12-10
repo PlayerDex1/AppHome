@@ -1,10 +1,8 @@
-import dynamic from 'next/dynamic'
-const Scanner = dynamic(() => import('../components/Scanner'), { ssr: false });
-export default function ScanPage(){
+export default function Scan() {
   return (
     <main style={{padding:20,fontFamily:'sans-serif'}}>
-      <h2>Scanner de Nota (QR / OCR)</h2>
-      <Scanner />
+      <h2>Scanner (placeholder)</h2>
+      <p>Abra /scan no navegador para testar.</p>
     </main>
   )
 }
